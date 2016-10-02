@@ -5,6 +5,6 @@ export default class Hello extends React.Component {
         super(props);
     }
     render() {
-        return <h1>Hello, {this.props.name}!</h1>
+        return <div><h1>Hello, {this.props.name}!</h1></div>
     }
 }
