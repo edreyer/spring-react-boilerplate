@@ -6,7 +6,7 @@ import {
 } from 'react-addons-test-utils';
 import {expect} from 'chai';
 
-import Hello from '../../../../main/resources/public/js/components/Hello';
+import Hello from '../../../main/resources/public/js/components/Hello';
 
 describe('Hello', () => {
 
