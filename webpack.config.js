@@ -9,7 +9,7 @@ module.exports = {
     entry: [
         'webpack-dev-server/client?http://localhost:8081',
         'webpack/hot/dev-server',
-        './src/main/resources/public/js/index'
+        './src/main/resources/public/js/index.jsx'
     ],
     output: {
         path: path.join(publicPath, 'static'),
